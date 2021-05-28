@@ -1,14 +1,14 @@
 <?php
 
-    //$nombre_servidor = 'localhost';
-    /*$nombre_usuario  = 'root';
-    $password        = '';
+    //$nombre_servidor = 'xxx.xxx.xxx.xxx';
+    /*$nombre_usuario  = 'xxxx';
+    $password        = 'xxxx';
     $nombre_db       = 'blog';
 */
     //info de la base de datos
-    define('NOMBRE_SERVIDOR', 'localhost');
-    define('NOMBRE_USUARIO','root');
-    define('PASSWORD','');
+    define('NOMBRE_SERVIDOR', 'xxx.xxx.xxx.xxx');
+    define('NOMBRE_USUARIO','xxxx');
+    define('PASSWORD','xxxx');
     define('NOMBRE_DB','blog');
 
     //rutas de la web
