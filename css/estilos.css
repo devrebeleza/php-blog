@@ -1,0 +1,137 @@
+body{
+    background: url('../img/grunge_wall.png');
+}
+
+
+.jumbotron{
+    background-color: cadetblue;    
+}
+
+.card-header{
+    background-color: cadetblue !important;
+    color: white !important;
+}
+
+.card-body{
+    color: gray;
+}
+
+.navbar, .dropdown-menu {
+    background-color: rgb(17, 14, 19) !important;
+}
+
+
+.navbar-brand:link, .navbar-brand:visited{
+    color:white  !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+    color: cadetblue !important;
+}
+
+#navbarCollapse li a:link, #navbarCollapse li a:visited{
+    color: white !important;
+}
+
+#navbarCollapse li a:hover, #navbarCollapse li a:active{
+    color: cadetblue !important;
+}
+
+.open > a{
+    background-color:  rgb(17, 14, 19) !important;
+}
+
+.contenido-articulo, .perfil{
+    background-color: white;
+    padding: 2em;
+}
+
+.sidebar {
+    background-color: white;
+  /*  margin-top: -5em;
+    padding-top: 5em;
+    padding-bottom: 1em;*/
+}
+
+.sidebar, .gg-elemento, .pg-entradas {
+    /*margin-top: -5em;*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.gg-elemento:hover {
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+}
+.gg-elemento {
+    color: white;
+}
+
+#gg-entradas {
+    background-color: deepskyblue;
+}
+
+#gg-comentarios {
+    background-color: #029ac4;
+}
+
+#gg-favoritos {
+    background-color: #394a66;
+}
+
+.pg-entradas {
+    background-color: skyblue;
+    color: white;
+}
+
+.table-striped > tbody >tr:nth-child(odd)>td,
+.table-striped > tbody >tr:nth-child(odd)>th{
+    background-color: #029ac4;
+}
+
+.table-striped > tbody > tr > td {
+    border: none;
+}
+
+.table> thead >tr> th {
+    border: none;
+}
+
+tbody:before{
+    content: "mmmm";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+}
+
+.form-nueva-entrada {
+    background-color: white;
+    padding: 2em;
+    
+}
+
+#resultados {
+    background-color: white !important;
+}
+
+.boton_subir {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#label-archivo {
+    background-color: #2b2b2b;
+    color: #029ac4;
+    cursor: pointer;
+    padding: 0.5em;
+    width: 100%;
+}
+
+#label-archivo:hover{
+    background-color: #029ac4;
+    color: white;
+}
