@@ -3,7 +3,7 @@ Blog with php, JavaScript, Bootstrap and MariaDB
 
 Mi first aproach with web tecnologies:
 
-I used:  
+I utilized:  
 
 	* PHP 7.4.7
         
